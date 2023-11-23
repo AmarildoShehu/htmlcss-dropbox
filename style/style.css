@@ -70,10 +70,29 @@ main{
     margin: 0 auto;
 }
 
+.img{
+    width: 5px;
+}
+
 /*SECONDO BLOCCO*/
 
+.subscribe-section{
+    width: 60%;
+    margin: 0 auto;
+}
+.subscribe-box{
+    height: 500px;
+    width: 400px;
+}
+.subscribe-box2{
+    height: 300px;
+    width: 100%;
+}
 
-
+/*TERZO BLOCCO*/
+.partner-box{
+    justify-content: center;
+}
 
 
 
