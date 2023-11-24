@@ -137,33 +137,56 @@ main{
 }
 
 
+/*QUARTO BLOCCO*/
+#bussines{
+    padding-top: 100px;
+    width: 60%;
+}
+.bussines-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-3{ 
 
+}
+.card{
+    min-height: 250px;
+    min-width: 250px;
+}
 
+/*QUINTO BLOCCO*/
 
-
-
-
-
-
-
-
+.quintasezione {
+    width: 60%;
+    padding-top: 100px;
+}
 
 
 
 
 
 /*
+#dropbox-business{
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.business-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.bussines-box{
+    height: 500px;
+    width: 400px;
+}
 
 
 
 
-
-
-
-
-
-
-
+/*
 
 
 
@@ -178,6 +201,7 @@ ul{
 }
 
 /*UTILS*/
+/*
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -192,3 +216,4 @@ ul{
 }
 
 bo
+*/
