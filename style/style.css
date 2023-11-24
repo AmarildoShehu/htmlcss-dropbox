@@ -11,7 +11,19 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
 
+h1{
+    font-size: 5rem;
+    font-weight: 40px;
+    text-align: center;
+}
 /*UTILS*/
 
 .container{
@@ -26,23 +38,46 @@ body{
 .flex{
     display: flex ;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.mg-30{
+    margin-bottom: 30px;
+}
 ul{
     list-style-type: none;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
 
 img{
-    height: 500px;
+    max-width: 100%;
+    display: block;
 }
 
 .btn{
-    width: 100px;
-    height: 20px;
+    color: white;
+    background-color: #999;
+    padding: 10px 15px;
+    display: inline-block;
+    align-content: center;
+    border: none;
+}
+
+.btn-small{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
 }
 /*HEADER*/
 
 #main-header{
     height: 80px;
+    background-color: white;
     box-shadow: 0 1px 3px #666;
 
     position: sticky;
@@ -51,19 +86,13 @@ img{
 
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
-
-.navbar{
-    padding: 10px;
+#main-header ul{
+    display: flex;
     align-items: center;
+    gap: 15px;
 }
-.navbar img{
-    height: 20px;
-}
-.navbar li{
-    padding: 10px;
-}
-
 
 /*MAIN*/
 main{
@@ -71,18 +100,11 @@ main{
 }
 
 /*PRIMO BLOCCO*/
-.main-container{
-    background-color: #B4D0E7;
 
-}
-
-.jumboscreen{
-    width: 60%;
+#jumboscreen{
+    height: 400px;
     margin: 0 auto;
-}
-
-.img{
-    width: 5px;
+    background-color: #B4D0E7;
 }
 
 /*SECONDO BLOCCO*/
