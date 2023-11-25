@@ -244,10 +244,10 @@ footer{
 .footer-lenguage{
     width: 80%;
     margin: 0 auto;
-}
-.footer-lenguage > p{
-    color: white;
-
+    color: rgba(255, 255, 255, 0.521);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 
