@@ -162,9 +162,37 @@ main{
     padding-top: 100px;
 }
 
+/*SESTO BLOCCO*/
 
+#sestoblocco{
+    border: 1px solid black;
+    padding-top: 100px;
+    display: flex;
+}
+.sestoblocco{
+    border: 1px solid black;
+    width: calc(100% / 3);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+.box-sesto{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 
-
+    height: 250px;
+    height: 250px;
+    width: calc(100% / 2);
+}
+.box-sesto > img{
+    width: 175px;
+    height: 50px;
+    color: white;
+}
 
 /*
 #dropbox-business{
