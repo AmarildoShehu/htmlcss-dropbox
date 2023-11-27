@@ -135,6 +135,50 @@ main{
     width: 80%;
     margin: 0 auto;
 }
+
+.subscribe-title > *{
+    margin: 40px 0;
+}
+
+.bussines-plans{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+.bussines-plans {
+    border: 1px solid #ccc;
+}
+.plan-card{
+    border: 1px solid;
+    flex-basis: calc(100% / 3 - 80px / 3);
+}
+
+.fullplan-card{
+    flex-basis: 100%;
+}
+
+.subscribe-personal{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#subscibe-personal{
+    padding: 20px;
+}
+#subscibe-personal > *{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*
 .column {
     flex: 1;
     border: 1px solid #ccc;
@@ -158,6 +202,9 @@ main{
 
 #subscibe-personal{
     padding: 20px;
+}
+#subscibe-personal > *{
+    padding-bottom: 20px;
 }
 /*
 .subscribe-section{
@@ -186,10 +233,10 @@ main{
 
 /*TERZO BLOCCO*/
 .partner-box{
-    width: 60%;
+    width: 80%;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 150px;
     align-items: center;
 }
 
@@ -206,7 +253,7 @@ main{
 /*QUARTO BLOCCO*/
 #bussines{
     padding-top: 100px;
-    width: 60%;
+    width: 80%;
 }
 
 .bussines-box{
@@ -226,7 +273,7 @@ main{
 /*QUINTO BLOCCO*/
 
 .client {
-    width: 60%;
+    width: 80%;
     padding-top: 100px;
 }
 .client > nav{
@@ -256,6 +303,7 @@ main{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding: 20px;
 
     height: 200px;
     width: calc(100% / 2);
@@ -343,64 +391,3 @@ footer{
     align-items: center;
     gap: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-/*
-#dropbox-business{
-    padding-top: 100px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.business-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 35px;
-}
-.bussines-box{
-    height: 500px;
-    width: 400px;
-}
-
-
-
-
-/*
-
-
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik Mono One', monospace;;
-}
-
-ul{
-    list-style-type: none;
-}
-
-/*UTILS*/
-/*
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.flex{
-    display: flex;
-}
-
-.block{
-    display: block;
-}
-
-bo
-*/
