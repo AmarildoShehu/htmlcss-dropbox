@@ -173,6 +173,25 @@ main{
     padding-bottom: 20px;
 }
 
+#custom-list li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+}
+
+
+.custom-list li:nth-child(1)::before {
+    content: "\f007";
+  }
+  
+  .custom-list li:nth-child(2)::before {
+    content: "\f05d"; 
+  }
+  
+  .custom-list li:nth-child(3)::before {
+    content: "\f1e0";
 
 
 
