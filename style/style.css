@@ -149,10 +149,10 @@ main{
     gap: 40px;
 }
 .bussines-plans {
-    border: 1px solid #ccc;
+ 
 }
 .plan-card{
-    border: 1px solid;
+    border: 1px solid #ccc;
     flex-basis: calc(100% / 3 - 80px / 3);
 }
 
@@ -174,28 +174,12 @@ main{
 }
 
 #custom-list li::before{
-    content: "";
+    content: "\f007";
     position: absolute;
     left: 0;
     top: 0;
-   
+    font-family: "Font Awesome 6.4.2 Free";
 }
-
-
-.custom-list li:nth-child(1)::before {
-    content: "\f007";
-  }
-  
-  .custom-list li:nth-child(2)::before {
-    content: "\f05d"; 
-  }
-  
-  .custom-list li:nth-child(3)::before {
-    content: "\f1e0";
-
-
-
-
 
 /*
 .column {
