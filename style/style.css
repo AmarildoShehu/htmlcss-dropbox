@@ -127,6 +127,39 @@ main{
 
 /*SECONDO BLOCCO*/
 
+.subscribe-container {
+    width: 80%;
+    margin: 150px auto;
+}
+.subscribe-title{
+    width: 80%;
+    margin: 0 auto;
+}
+.column {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+.horizontal-row{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.horizontal-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}  
+
+.subscribe-personal{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#subscibe-personal{
+    padding: 20px;
+}
+/*
 .subscribe-section{
     padding-top: 100px;
     width: 60%;
@@ -149,14 +182,14 @@ main{
 .subscribe-section > span{
     letter-spacing: 1px;
 }
-
+*/
 
 /*TERZO BLOCCO*/
 .partner-box{
     width: 60%;
     justify-content: center;
     gap: 50px;
-    padding-top: 100px;
+    margin-top: 100px;
     align-items: center;
 }
 
@@ -192,9 +225,17 @@ main{
 }
 /*QUINTO BLOCCO*/
 
-.quintasezione {
+.client {
     width: 60%;
     padding-top: 100px;
+}
+.client > nav{
+    margin-top: 20px;
+}
+.client > nav > a{
+    text-decoration: underline;
+    color: blue;
+    font-size: small;
 }
 
 /*SESTO BLOCCO*/
