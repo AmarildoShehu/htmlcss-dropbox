@@ -21,6 +21,7 @@ a{
 
 h1{
     font-size: 70px;
+    font-weight: 700;
 }
 
 /*UTILS*/
@@ -65,7 +66,7 @@ img{
 .btn-small{
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 /*HEADER*/
 
@@ -96,7 +97,7 @@ main{
 /*PRIMO BLOCCO*/
 
 #jumboscreen{
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     background-color: #B4D0E7;
     padding-top: 100px;
@@ -106,14 +107,23 @@ main{
 }
 .row{
     display: flex;
-    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
-.row .collona-40{
-    flex-basis: 40%;
+.row .collona-30{
+    flex-basis: 30%;
 }
-.row .collona-60{
+.collona-30 > * {
+    margin-bottom: 20px;
+}
+.row .collona-70{
+    flex-basis: 70%;
 }
 
+.collona-60 > img{
+    width: 700px;
+}
 
 /*SECONDO BLOCCO*/
 
@@ -131,6 +141,10 @@ main{
     width: 100%;
 }
 
+.subscribe-section > h2{
+    font-weight: bold
+    ;
+}
 /*TERZO BLOCCO*/
 .partner-box{
     justify-content: center;
