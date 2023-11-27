@@ -55,18 +55,18 @@ img{
 }
 
 .btn{
-    color: white;
-    background-color: #999;
+    color: black;
+    background-color: white;
     padding: 10px 15px;
     display: inline-block;
     align-content: center;
-    border: none;
 }
 
 .btn-small{
     background-color: #0061ff;
     color: white;
     padding: 10px 20px;
+    border: none;
 }
 /*HEADER*/
 
@@ -133,23 +133,42 @@ main{
     margin: 0 auto;
 }
 .subscribe-box{
-    height: 500px;
-    width: 400px;
+    height: 450px;
 }
 .subscribe-box2{
-    height: 300px;
+    height: 600px;
     width: 100%;
 }
 
 .subscribe-section > h2{
-    font-weight: bold
-    ;
-}
-/*TERZO BLOCCO*/
-.partner-box{
-    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
 }
 
+.subscribe-section > span{
+    letter-spacing: 1px;
+}
+
+
+/*TERZO BLOCCO*/
+.partner-box{
+    width: 60%;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.partner-box-left{
+   width: 60%;
+}
+.partner-box-right{
+   width: 40%;
+}
+.partner-box-right > *{
+    margin: 20px;
+}
 
 /*QUARTO BLOCCO*/
 #bussines{
