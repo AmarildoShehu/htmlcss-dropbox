@@ -321,6 +321,7 @@ main{
 .box-sesto > img{
     width: 175px;
     height: 50px;
+    filter: invert(1);
 }
 
 #sestoblocco-last{
