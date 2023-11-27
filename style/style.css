@@ -175,19 +175,21 @@ main{
     padding-top: 100px;
     width: 60%;
 }
+
 .bussines-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
 }
-.col-3{ 
 
-}
 .card{
-    min-height: 250px;
-    min-width: 250px;
+    width: 250px;
+    padding: 20px 20px 20px 0;
 }
-
+.card > *{
+    margin-bottom: 15px;
+}
 /*QUINTO BLOCCO*/
 
 .quintasezione {
@@ -233,11 +235,12 @@ main{
     display: flex;
     align-items: center;
     background-color: #B4D0E7;
-    height: 250px;
+    height: 250px; 
 }
 .sestoblocco-last{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+    justify-content: center;
     align-items: center;
 }
 .sestoblocco-last-box-left{
@@ -251,7 +254,7 @@ main{
 
 /*SETTIMO BLOCCO*/
 #settimo-blocco{
-    width: 60%;
+    width: 80%;
     height: 500px;
     margin: 0 auto;
     padding-top: 100px;
