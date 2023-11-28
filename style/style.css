@@ -91,9 +91,6 @@ img{
 }
 
 /*MAIN*/
-main{
-
-}
 
 /*JUMBOSCREEN*/
 
@@ -152,9 +149,7 @@ main{
     flex-direction: row;
     gap: 40px;
 }
-.bussines-plans {
- 
-}
+
 .plan-card{
     border: 1px solid #ccc;
     flex-basis: calc(100% / 3 - 80px / 3);
@@ -196,60 +191,7 @@ main{
 .fullplan-bottom-dx{
     padding: 20px;
     flex-basis: 30%;
-    width: ;
 }
-/*
-.column {
-    flex: 1;
-    border: 1px solid #ccc;
-}
-.horizontal-row{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.horizontal-column {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-}  
-
-.subscribe-personal{
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-#subscibe-personal{
-    padding: 20px;
-}
-#subscibe-personal > *{
-    padding-bottom: 20px;
-}
-/*
-.subscribe-section{
-    padding-top: 100px;
-    width: 60%;
-    margin: 0 auto;
-}
-.subscribe-box{
-    height: 450px;
-}
-.subscribe-box2{
-    height: 600px;
-    width: 100%;
-}
-
-.subscribe-section > h2{
-    font-weight: 700;
-    letter-spacing: 4px;
-    padding-bottom: 30px;
-}
-
-.subscribe-section > span{
-    letter-spacing: 1px;
-}
-*/
 
 /*Parter block*/
 .partner-box{
@@ -362,9 +304,6 @@ main{
     font-size: 40px;
     color: #541B56;
     padding-right: 100px;
-}
-.employees-last-box-right{
-
 }
 
 /*Questions block*/
