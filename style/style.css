@@ -94,7 +94,7 @@ main{
 
 }
 
-/*PRIMO BLOCCO*/
+/*JUMBOSCREEN*/
 
 
 #jumboscreen{
@@ -112,21 +112,21 @@ main{
     margin: 0 auto;
     margin-top: 50px;
 }
-.row .collona-30{
+.row .column-30{
     flex-basis: 30%;
 }
-.collona-30 > * {
+.collumn-30 > * {
     margin-bottom: 20px;
 }
-.row .collona-70{
+.row .column-70{
     flex-basis: 70%;
 }
 
-.collona-60 > img{
+.column-60 > img{
     width: 700px;
 }
 
-/*SECONDO BLOCCO*/
+/*SECOND BLOCk*/
 
 .subscribe-container {
     width: 80%;
@@ -195,7 +195,7 @@ main{
 .fullplan-bottom-dx{
     padding: 20px;
     flex-basis: 30%;
-width: ;
+    width: ;
 }
 /*
 .column {
@@ -250,7 +250,7 @@ width: ;
 }
 */
 
-/*TERZO BLOCCO*/
+/*Parter block*/
 .partner-box{
     width: 80%;
     justify-content: center;
@@ -269,7 +269,7 @@ width: ;
     margin: 20px;
 }
 
-/*QUARTO BLOCCO*/
+/*Bussines Block*/
 #bussines{
     padding-top: 100px;
     width: 80%;
@@ -289,7 +289,7 @@ width: ;
 .card > *{
     margin-bottom: 15px;
 }
-/*QUINTO BLOCCO*/
+/*Client block*/
 
 .client {
     width: 80%;
@@ -304,77 +304,83 @@ width: ;
     font-size: small;
 }
 
-/*SESTO BLOCCO*/
+/*Employees block*/
 
-#sestoblocco{
+#co-workers{
     padding-top: 100px;
     display: flex;
 }
-.sestoblocco{
+.employees{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
    
-.box-sesto{
+.employees-box{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 
     width: calc(100% / 2);
+
+    border: 10px solid transparent;
 }
-#box-sesto-centro{
+
+.employees-box  :hover{
+    border-color: rgba(255, 255, 255, 0.521);
+}
+
+#employees-central-box{
     padding: 25px;
     background-color: #F5F5F5;
 }
-#box-sesto-centro > *{
+#employees-central-box > *{
     margin-bottom: 25px;
 }
-.box-sesto > img{
-    width: 175px;
-    height: 50px;
+.employees-box > img{
+    width: 50%;
     filter: invert(1);
 }
 
-#sestoblocco-last{
+#co-workers-last-box{
     display: flex;
     align-items: center;
     background-color: #B4D0E7;
     height: 250px; 
 }
-.sestoblocco-last{
+.employees-last-box{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.sestoblocco-last-box-left{
+.employees-last-box-left{
     width: 60%;
     font-size: 40px;
     color: #541B56;
 }
-.sestoblocco-last-box-right{
+.employees-last-box-right{
 
 }
 
-/*SETTIMO BLOCCO*/
-#settimo-blocco{
+/*Questions block*/
+#questions{
     width: 80%;
     height: 500px;
     margin: 0 auto;
     padding-top: 100px;
 
 }
-#settimo-blocco > h2{
+#questions > h2{
     margin: 0 auto;
     border-bottom: 1px solid #B4D0E7;
     width: 80%;
     padding: 25px 0;
 }
 
-#settimo-blocco > p{
+#questions > p{
     margin: 0 auto;
     width: 80%;
     padding: 25px 0;
