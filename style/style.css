@@ -60,12 +60,13 @@ img{
     padding: 10px 15px;
     display: inline-block;
     align-content: center;
+    font-size: 13px;
 }
 
 .btn-small{
     background-color: #0061ff;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
 }
 /*HEADER*/
@@ -163,23 +164,23 @@ main{
     flex-basis: 100%;
 }
 
-.subscribe-personal{
+.subscribe{
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
 
-#subscibe-personal{
+.sign-in{
     padding: 20px;
 }
-#subscibe-personal > *{
+.sign-in > *{
     padding-bottom: 20px;
 }
 
-#subscibe-personal > ul{
+.sign-in > ul{
     margin: 20px;
 }
-#subscibe-personal a{
+.sign-in a{
    display: inline-block;
 }
 .fullplan-card{
@@ -357,9 +358,10 @@ main{
     align-items: center;
 }
 .employees-last-box-left{
-    width: 60%;
+    width: 50%;
     font-size: 40px;
     color: #541B56;
+    padding-right: 100px;
 }
 .employees-last-box-right{
 
