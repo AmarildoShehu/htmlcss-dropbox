@@ -389,11 +389,17 @@ main{
     border-bottom: 1px solid #B4D0E7;
 }
 
+.hidden-text{
+    display: none;
+}
+
+.text-questions:hover .hidden-text{
+    display: block;
+}
 
 /*FOOTER*/
 
 footer{
-    padding-top: 100px;
     height: 500px;
     background-color: #010413;
 }
