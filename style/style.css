@@ -126,10 +126,10 @@ main{
     width: 700px;
 }
 
-/*SECOND BLOCk*/
+/*subscribe BLOCk*/
 
 .subscribe-container {
-    width: 80%;
+    width: 75%;
     margin: 150px auto;
 }
 
@@ -252,7 +252,7 @@ main{
 
 /*Parter block*/
 .partner-box{
-    width: 80%;
+    width: 60%;
     justify-content: center;
     gap: 50px;
     margin-top: 150px;
@@ -272,7 +272,7 @@ main{
 /*Bussines Block*/
 #bussines{
     padding-top: 100px;
-    width: 80%;
+    width: 60%;
 }
 
 .bussines-box{
@@ -292,7 +292,7 @@ main{
 /*Client block*/
 
 .client {
-    width: 80%;
+    width: 60%;
     padding-top: 100px;
 }
 .client > nav{
