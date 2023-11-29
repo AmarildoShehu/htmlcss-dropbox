@@ -270,10 +270,11 @@ img{
 
     width: calc(100% / 2);
 
-    border: 10px solid transparent;
+    border: none;
 }
 
-.employees-box  :hover{
+.employees-box:hover{
+    border: 10px solid;
     border-color: rgba(255, 255, 255, 0.521);
 }
 
